@@ -1,0 +1,9 @@
+import time
+
+def clocks(seconds):
+  for second in range(seconds, -1, -1):
+    print(f'You got {second} seconds')
+    time.sleep(1)
+
+clocks(seconds=5)
+print('Boom')
